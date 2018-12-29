@@ -1,12 +1,12 @@
-		const gulp = require('gulp');
-		const uglify = require('gulp-uglify');
-		const concat = require('gulp-concat');
-		const rename = require('gulp-rename');
-		const imgmin =require('gulp-imagemin');
-		const sass = require('gulp-sass');
-		const  nano =require('gulp-cssnano');
-		
-		gulp.task('js',function(){
+const gulp = require('gulp');
+const uglify = require('gulp-uglify');
+const concat = require('gulp-concat');
+const rename = require('gulp-rename');
+const imgmin =require('gulp-imagemin');
+const sass = require('gulp-sass');
+const  nano =require('gulp-cssnano');
+
+gulp.task('js',function(){
 			gulp.src('./src/js/*.js')
 			.pipe(uglify())
 			.pipe(gulp.dest('./dist/js'));
@@ -25,7 +25,7 @@
 		gulp.task('sass',function(){
 			gulp.src('./src/sass/*.scss')
 			.pipe(sass())
-			.pipe(nano())
+			//.pipe(nano())
 			.pipe(rename({"suffix" : ".min"}))
 			.pipe(gulp.dest('./dist/css'));
 		})

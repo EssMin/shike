@@ -1,0 +1,175 @@
+body,ul,input,button,h2{
+	margin: 0 ;
+	padding: 0 ;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#shortcuts{
+	width: 100%;
+	height: 30px;
+	background: #f2f2f2;
+	line-height: 30px;
+	#typearea{
+		width: 1190px;
+		margin: 0 auto;
+		a{
+			color: #999999;
+			font-size: 12px;
+		}
+		#collect{
+			float: left;
+			li{
+				float: left;
+				a{
+					margin-right: 8px;
+				}
+			}
+			li:last-child{
+				padding-left: 12px;
+				a{
+					margin-right: 15px;
+				}
+			}
+		}
+		#user-center{
+			float: right;
+			li{
+				float: left;
+				margin-left: 15px;
+				a{
+					margin-left: 5px;
+					margin-right: 5px;
+				}
+				img{
+					width: 15px;
+					height: 15px;
+					vertical-align: middle;
+					margin-right: 2px;
+				}
+			}
+		}
+	}
+}
+#advertising{
+	width: 1190px;
+	height: 100px;
+	backgroung:red;
+	margin: 5px auto;
+}
+#header{
+	width: 1190px;
+	height: 101px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	img{
+		float: left;
+	}
+	#include{
+		float: left;
+		margin-left: 60px;
+		padding-top: 30px;
+		#search{
+			width: 650px;
+			height: 40px;
+			border: 2px solid #c40000;
+			input{
+				width: 508px;
+				height: 38px;
+				line-height: 38px;
+				border: 0;
+				outline: none;
+				margin-left: 2px;
+				margin-top: 2px;
+				padding-left: 6px;
+			}
+			button{
+				background: #c40000;
+				width: 130px;
+				height: 40px;
+				float: right;
+				border: 0;
+				font-size: 18px;
+				color: #ffffff;
+			}
+		}
+		#push{
+			ul{
+				li{
+					float: left;
+					a{
+						font-size: 14px;
+						color: #666666;
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+	}
+}
+#nav{
+	width: 100%;
+	height: 37px;
+	background: #dd2727;
+	ul{
+		width: 1190px;
+		height: 37px;
+		margin: 0 auto;
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 37px;
+		h2{
+			width: 185px;
+			padding-left: 15px;
+			font-size: 12px;
+			float: left;
+			background: #c40000;
+			a{
+				color: #ffffff;
+			}
+		}
+		li{
+			float: left;
+			padding-left: 18px;
+			padding-right:18px ;
+			a{
+				color: #ffffff;
+				i{
+					position: relative;
+					color: #ffffff;
+					left: 5px;
+					top: -4px;
+					font-size: 9px;
+				}
+
+			}
+		}
+	}
+}
+#content{
+	background: url(../image/bg.jpg) no-repeat top center;
+	#list{
+		width: 1190px;
+		margin: 0 auto;
+		ul:first-child{
+		float: left;
+			li{
+				width: 198px;
+				height: 64px;
+				border: #000000 solid 1px;
+			}
+			li:hover{
+				background: #EFEFEF;
+				box-shadow:2px 2px 1 inset;
+			}
+		}
+		ul:last-child{
+	//	float: left;	
+		}
+	}
+	
+}
