@@ -1,4 +1,4 @@
-body, ul, input, button, h2, p, dl, dt, dd {
+body, ul, input, button, h2, p, dl, dt, dd, h4 {
   margin: 0;
   padding: 0; }
 
@@ -123,7 +123,7 @@ a {
 
 .content {
   width: 100%;
-  height: 780px;
+  overflow: hidden;
   background: url(../image/content-bg.jpg) no-repeat top center; }
   .content .list {
     width: 1190px;
@@ -279,3 +279,147 @@ a {
         margin-left: 15px;
         font-size: 17px;
         line-height: 45px; }
+    .content .goods-type .contact-lenses .contact-area {
+      border-bottom: 1px solid #EFEFEF;
+      margin-bottom: 10px; }
+      .content .goods-type .contact-lenses .contact-area .contact-list {
+        float: left;
+        border-right: 1px solid #EFEFEF; }
+        .content .goods-type .contact-lenses .contact-area .contact-list ul {
+          width: 190px;
+          height: 180px;
+          padding: 10px; }
+          .content .goods-type .contact-lenses .contact-area .contact-list ul li {
+            width: 90px;
+            height: 25px;
+            float: left; }
+            .content .goods-type .contact-lenses .contact-area .contact-list ul li a {
+              font-size: 12px;
+              color: #333333; }
+        .content .goods-type .contact-lenses .contact-area .contact-list img {
+          width: 205px;
+          height: 250px; }
+      .content .goods-type .contact-lenses .contact-area .contact-show {
+        overflow: hidden; }
+        .content .goods-type .contact-lenses .contact-area .contact-show dl {
+          width: 160px;
+          height: 207px;
+          padding: 10px 17px;
+          float: left; }
+          .content .goods-type .contact-lenses .contact-area .contact-show dl dt img {
+            width: 160px;
+            height: 160px; }
+          .content .goods-type .contact-lenses .contact-area .contact-show dl dd {
+            font-size: 12px;
+            line-height: 25px; }
+            .content .goods-type .contact-lenses .contact-area .contact-show dl dd a {
+              color: #333333; }
+          .content .goods-type .contact-lenses .contact-area .contact-show dl dd:last-of-type {
+            color: #E02F26;
+            font-size: 14px;
+            line-height: 1; }
+            .content .goods-type .contact-lenses .contact-area .contact-show dl dd:last-of-type span {
+              background: #8BC144;
+              color: #FFFFFF;
+              padding: 0 2px; }
+    .content .goods-type .glasses-lesson .title3 {
+      height: 45px;
+      margin-top: 20px;
+      border-bottom: 2px solid #9c9c9c;
+      font-size: 17px;
+      line-height: 45px; }
+      .content .goods-type .glasses-lesson .title3 img {
+        width: 32px;
+        height: 32px;
+        vertical-align: middle;
+        margin-right: 15px; }
+      .content .goods-type .glasses-lesson .title3 a {
+        color: #333333; }
+    .content .goods-type .glasses-lesson .lesson-content {
+      padding-top: 10px;
+      float: left;
+      overflow: hidden;
+      width: 880px; }
+      .content .goods-type .glasses-lesson .lesson-content ul {
+        margin-right: 40px;
+        width: 400px;
+        height: 285px;
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        float: left;
+        list-style: disc;
+        list-style-position: inside; }
+        .content .goods-type .glasses-lesson .lesson-content ul li {
+          position: relative;
+          font-size: 12px;
+          line-height: 35px; }
+          .content .goods-type .glasses-lesson .lesson-content ul li a {
+            color: #333333; }
+          .content .goods-type .glasses-lesson .lesson-content ul li .shade {
+            width: 100%;
+            font-size: 12px;
+            line-height: 35px;
+            text-indent: 15px;
+            background: rgba(0, 0, 0, 0.3);
+            position: absolute;
+            bottom: 13px; }
+            .content .goods-type .glasses-lesson .lesson-content ul li .shade a {
+              color: #9BC4E7; }
+    .content .goods-type .glasses-lesson .adver {
+      float: left;
+      margin-top: 10px; }
+
+.user-help {
+  width: 1080px;
+  height: 120px;
+  margin: 10px 42px auto;
+  padding: 20px 55px;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3; }
+  .user-help .help {
+    width: 180px;
+    height: 120px;
+    float: left; }
+    .user-help .help ul li {
+      height: 30px;
+      margin-right: 15px;
+      float: left; }
+      .user-help .help ul li a {
+        font-size: 12px;
+        color: #666;
+        line-height: 30px; }
+
+.link {
+  width: 1190px;
+  margin: 10px auto;
+  overflow: hidden;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3; }
+  .link .linkname {
+    float: left;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center; }
+    .link .linkname a {
+      color: #FF0000;
+      line-height: 30px; }
+  .link .roll {
+    float: left; }
+    .link .roll ul li {
+      float: left;
+      padding: 0 30px; }
+      .link .roll ul li a {
+        font-size: 12px;
+        color: #666666;
+        line-height: 30px; }
+
+.foot {
+  width: 1190px;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 30px;
+  color: #666666; }
+  .foot a {
+    color: #333333; }
