@@ -1,0 +1,110 @@
+body,form,input{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.register-header{
+	width: 1024px;
+	height: 94px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.register-content{
+	width: 100%;
+	background: #F5F5F5;
+	border-top:1px solid #CCCCCC ;
+	border-bottom:1px solid #CCCCCC ;
+	.register-center{
+		margin: 0 auto;
+		width: 1024px;
+		overflow: hidden;
+		.Immediately{
+			float: left;
+			width: 600px;
+			height: 600px;
+			.Immediately-content{
+				font-size: 16px;
+				padding: 10px 0;
+				line-height: 30px;
+				span:last-of-type{
+					font-size: 12px;
+					line-height: 30px;
+					color: #FF0000;
+					margin-left: 10px;
+				}
+			}
+		}
+		.began-register{
+			float: left;
+			width: 315px;
+			height: 395px;
+			border: 1px solid #CCCCCC;
+			margin-top: 50px;
+			padding-top: 55px;
+			padding-left: 45px;
+			background: #FFFFFF;
+			form{
+				.phone{
+					input{
+						width: 270px;
+						height: 35px;
+						border: 1px solid #CCCCCC;
+						text-indent: 7px;
+					}
+				}
+				.checkout{
+					margin-top: 15px;
+					input{
+						height: 35px;
+						width: 127px;
+						border: 1px solid #CCCCCC;
+						text-indent: 7px;
+					}
+					input[type="button"]{
+						width: 130px;
+						height: 38px;
+						border: 1px solid #CCCCCC;
+						margin-left: 5px;
+						background: #F8F8F8;
+						color: #2DA1E7;
+					}
+					
+				}
+				.choose{
+					margin-top: 15px;
+					font-size: 13px;
+					vertical-align: middle;
+					a{
+						color: #000000;
+					}
+					a:last-of-type{
+						color: #005BB5;
+					}
+				}
+				.next{
+					margin-top: 15px;
+					input{
+						width: 270px;
+						height: 35px;
+						background: #D21205;
+						border: 0;
+						color: #FFFFFF;
+						font-size: 16px;
+					}
+				}
+			}
+		}
+	}
+}
+.foot{
+				width: 1024px;
+				margin: 10px auto;
+				font-size: 12px;
+				line-height: 30px;
+				color: #666666;
+				a{
+					color: #333333;
+				}
+			}
