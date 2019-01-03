@@ -241,33 +241,70 @@ a {
           font-size: 12px; }
       .content .subfield .subfield-right .choice-goods {
         margin-top: 8px; }
-        .content .subfield .subfield-right .choice-goods ul li {
-          width: 200px;
-          height: 360px;
-          padding: 15px 17px 25px;
-          margin-top: 10px; }
-          .content .subfield .subfield-right .choice-goods ul li a {
-            display: block;
-            position: relative; }
-            .content .subfield .subfield-right .choice-goods ul li a img {
-              width: 210px;
-              height: 210px; }
-            .content .subfield .subfield-right .choice-goods ul li a p {
+        .content .subfield .subfield-right .choice-goods ul {
+          margin-left: 10px; }
+          .content .subfield .subfield-right .choice-goods ul li {
+            width: 200px;
+            height: 360px;
+            padding: 15px 17px 25px;
+            margin-top: 10px;
+            float: left;
+            border-bottom: 1px solid #DDDDDD; }
+            .content .subfield .subfield-right .choice-goods ul li a {
+              display: block;
+              position: relative; }
+              .content .subfield .subfield-right .choice-goods ul li a img {
+                width: 210px;
+                height: 210px; }
+              .content .subfield .subfield-right .choice-goods ul li a p {
+                font-size: 12px;
+                height: 38px;
+                white-space: pre-wrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: #333333; }
+              .content .subfield .subfield-right .choice-goods ul li a p:last-of-type {
+                color: #D03845; }
+              .content .subfield .subfield-right .choice-goods ul li a b {
+                background: #E35E5E;
+                color: #FDFFFF;
+                position: absolute;
+                top: 0;
+                right: 0; }
+            .content .subfield .subfield-right .choice-goods ul li .price span {
+              font-size: 16px;
+              line-height: 30px;
+              font-weight: 600;
+              color: #D03845; }
+            .content .subfield .subfield-right .choice-goods ul li .price span:nth-of-type(2) {
+              color: #FFFFFF;
               font-size: 12px;
-              height: 38px;
-              white-space: pre-wrap;
-              overflow: hidden;
-              text-overflow: ellipsis; }
-            .content .subfield .subfield-right .choice-goods ul li a b {
-              background: #E35E5E;
-              color: #FDFFFF;
-              position: absolute;
-              top: 0;
-              right: 0; }
-          .content .subfield .subfield-right .choice-goods ul li span {
-            font-size: 12px; }
-          .content .subfield .subfield-right .choice-goods ul li .appraise b {
-            font-size: 12px; }
+              line-height: 18px;
+              background: #4CA0FF;
+              padding: 1px 2px;
+              float: right; }
+            .content .subfield .subfield-right .choice-goods ul li .goods-collect {
+              border: 1px solid #D3D3D3;
+              padding: 1px 6px;
+              font-size: 12px;
+              color: #333333;
+              font-weight: 300;
+              float: left;
+              margin: 5px 0;
+              clear: both; }
+            .content .subfield .subfield-right .choice-goods ul li .appraise {
+              float: left; }
+              .content .subfield .subfield-right .choice-goods ul li .appraise b {
+                font-size: 12px;
+                display: inline-block;
+                width: 12px;
+                height: 15px;
+                background: url(../image/xing-you.jpg) no-repeat; }
+              .content .subfield .subfield-right .choice-goods ul li .appraise span {
+                font-size: 12px;
+                color: #0051AC;
+                font-weight: 300;
+                margin-left: 15px; }
 
 .user-help {
   width: 1080px;

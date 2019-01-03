@@ -1,0 +1,92 @@
+body, ul, input, button, h2, p, dl, dt, dd, h4 {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.shortcuts {
+  width: 100%;
+  height: 31px;
+  background: #f2f2f2;
+  line-height: 30px; }
+  .shortcuts .typearea {
+    width: 1190px;
+    margin: 0 auto; }
+    .shortcuts .typearea a {
+      color: #999999;
+      font-size: 12px; }
+    .shortcuts .typearea .collect {
+      float: left; }
+      .shortcuts .typearea .collect li {
+        float: left; }
+        .shortcuts .typearea .collect li a {
+          margin-right: 8px; }
+      .shortcuts .typearea .collect li:last-child {
+        padding-left: 12px; }
+        .shortcuts .typearea .collect li:last-child a {
+          margin-right: 15px; }
+    .shortcuts .typearea .user-center {
+      float: right; }
+      .shortcuts .typearea .user-center li {
+        float: left;
+        margin-left: 15px; }
+        .shortcuts .typearea .user-center li a {
+          margin-left: 5px;
+          margin-right: 5px; }
+        .shortcuts .typearea .user-center li img {
+          width: 15px;
+          height: 15px;
+          vertical-align: middle;
+          margin-right: 2px; }
+
+.goods-state {
+  width: 1190px;
+  margin: 0 auto;
+  padding: 3px 0; }
+  .goods-state img {
+    float: left; }
+  .goods-state h2 {
+    font-size: 20px;
+    line-height: 91px;
+    display: inline-block;
+    margin-left: 20px; }
+  .goods-state .include {
+    float: right;
+    margin-left: 60px;
+    padding-top: 45px; }
+    .goods-state .include .search {
+      width: 650px;
+      height: 40px;
+      border: 2px solid #c40000; }
+      .goods-state .include .search input {
+        width: 508px;
+        height: 38px;
+        line-height: 38px;
+        border: 0;
+        outline: none;
+        margin-left: 2px;
+        margin-top: 2px;
+        padding-left: 6px; }
+      .goods-state .include .search button {
+        background: #c40000;
+        width: 130px;
+        height: 40px;
+        float: right;
+        border: 0;
+        font-size: 18px;
+        color: #ffffff; }
+
+.shopping-way {
+  padding-top: 20px;
+  font-size: 16px;
+  clear: both;
+  overflow: hidden;
+  border-bottom: 3px solid #F2F2F2; }
+  .shopping-way ul li {
+    float: left;
+    padding: 10px 20px;
+    border-bottom: 3px solid #DD2727; }

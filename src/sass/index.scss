@@ -164,7 +164,51 @@ a{
 				width: 200px;
 				height: 63px;
 				border-bottom: #e8e8e8 1px solid;
+				b{
+					display: block;
+					width: 40px;
+					height: 64px;
+					float: left;
+					background: url(../image/index_leftmenu.png) no-repeat -5px 0;
+				}
+				
+				.classify{
+					width: 120px;
+					height: 54px;
+					line-height: 24px;
+					font-size: 12px;
+					float: left;
+					padding-top: 8px;
+					margin-left: 20px;
+					a{
+						color: #333333;
+					}
+					a:first-of-type{
+						font-weight: 600;
+						font-size: 14px;
+					}
+				}
 			}
+			li:nth-of-type(2){
+				b{
+					background-position: -5px -60px;
+				}
+			}
+			li:nth-of-type(3){
+				b{
+					background-position: -5px -120px;
+				}
+			}li:nth-of-type(4){
+				b{
+					background-position: -5px -180px;
+				}
+			}li:nth-of-type(5){
+				b{
+					background-position: -5px -240px;
+				}
+			}
+			
+			
 			li:hover{
 				background: #EFEFEF;
 				box-shadow:2px 2px 1 inset;

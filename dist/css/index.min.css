@@ -135,6 +135,33 @@ a {
         width: 200px;
         height: 63px;
         border-bottom: #e8e8e8 1px solid; }
+        .content .list .menu li b {
+          display: block;
+          width: 40px;
+          height: 64px;
+          float: left;
+          background: url(../image/index_leftmenu.png) no-repeat -5px 0; }
+        .content .list .menu li .classify {
+          width: 120px;
+          height: 54px;
+          line-height: 24px;
+          font-size: 12px;
+          float: left;
+          padding-top: 8px;
+          margin-left: 20px; }
+          .content .list .menu li .classify a {
+            color: #333333; }
+          .content .list .menu li .classify a:first-of-type {
+            font-weight: 600;
+            font-size: 14px; }
+      .content .list .menu li:nth-of-type(2) b {
+        background-position: -5px -60px; }
+      .content .list .menu li:nth-of-type(3) b {
+        background-position: -5px -120px; }
+      .content .list .menu li:nth-of-type(4) b {
+        background-position: -5px -180px; }
+      .content .list .menu li:nth-of-type(5) b {
+        background-position: -5px -240px; }
       .content .list .menu li:hover {
         background: #EFEFEF;
         box-shadow: 2px 2px 1 inset; }

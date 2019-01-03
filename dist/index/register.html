@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<div class= "register-header">
-			<img src="../../src/image/header-logo.jpg" >
+			<img src="../image/header-logo.jpg" >
 		</div>
 		<div class = "register-content">
 			<div class= "register-center">
@@ -19,12 +19,12 @@
 				</div>
 				<div class = "began-register">
 					<form action="" method="">
-						<div class = "phone">
-							<input type="text" placeholder="手机">
+						<div class = "phone" id="box">
+							<input type="text" placeholder="手机" id="phone">
 						</div>
 						<div class = "checkout">
-							<input type="text" placeholder="校验码">
-							<input type="button" value="获取校验码">
+							<input type="password" placeholder="密码" id= "code">
+							<input type="button" value="请输入验证码" id="gaincode">
 						</div>
 						<div class = "choose">
 							<input type="checkbox">
@@ -32,7 +32,7 @@
 							<a href="#">注册协议</a>
 						</div>
 						<div class = "next">
-							<input type="button" value = "下一步">
+							<input type="button" value = "下一步" id="next">
 						</div>
 					</form>
 				</div>
@@ -46,5 +46,8 @@
 				<a href="#">苏公网安备 32010402000492号</a>
 			</div>
 		</div>
+		<script src = "../js/jquery-1.11.3.js"></script>
+		<script src = "../js/jquery.cookie.js"></script>
+		<script src = "../js/register.js"></script>
 	</body>
 </html>
